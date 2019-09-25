@@ -16,7 +16,9 @@ public class LoginTest {
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		
+		/* 
+		 Prity is the BEST 
+		 * */
 
 	}
 
