@@ -25,7 +25,7 @@ public class LoginTest {
 
 	@Test
 	public void doLogin() {
-		driver.get("http://gmail.com");
+		driver.get("http://tgmail.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("pritysinha03059101@gmail.com");
